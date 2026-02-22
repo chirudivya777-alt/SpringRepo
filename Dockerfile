@@ -34,5 +34,3 @@ EXPOSE 8080
 # Run the Spring Boot app
 ENTRYPOINT ["java", "-jar", "app.jar"]
 
-
-https://hub.docker.com/_/openjdk
