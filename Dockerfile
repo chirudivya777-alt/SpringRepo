@@ -1,5 +1,5 @@
 
- ---------- Build Stage ----------
+ #---------- Build Stage ----------
 FROM eclipse-temurin:25-jdk AS build
 
 # Install Maven manually in case CI/CD base image doesn’t include it
@@ -33,5 +33,6 @@ EXPOSE 8080
 
 # Run the Spring Boot app
 ENTRYPOINT ["java", "-jar", "app.jar"]
+
 
 https://hub.docker.com/_/openjdk
